@@ -1,0 +1,54 @@
+.contenedor { 
+    border: solid 1px #ccc;
+    width: 100%;
+    max-width: 500px; margin: 0px auto;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center; min-height: 100vh;
+    box-shadow: 0px 0px 10px #ccc;
+    color: #585858;
+    font-family: Arial;
+    overflow: hidden;
+    background-color: #ffffff;
+    }
+    .titulo {
+    font-size: 50px; 
+    margin-bottom: 20px;
+    }
+    .logo {
+    width: 30rem; 
+    height: 200px;
+    }
+    .caja-correo, .caja-password,.caja-nombre { 
+        font-size: 30px;
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #FF0000;
+    outline: none;
+    margin-top: 10px;
+    }
+    input::placeholder{ 
+        color: #ccc;
+    }
+    .agrupador-correo, .agrupador-password {
+         text-align: left;
+        margin-top: 20px;
+        }
+        .agrupador-boton {
+             margin-top: 30px;
+        }
+        
+        .boton-ingresar {    
+        font-size: 30px;
+        background-color:#12c0cc;
+        color: #ffffff;
+        padding: 10px; cursor: pointer;
+        }
+        .otros-botones {
+        margin-top: 50px; 
+        text-align: center;
+        }
+        .link-registro, .link-password {
+        color:#1601ff; 
+        display:block;
+        }

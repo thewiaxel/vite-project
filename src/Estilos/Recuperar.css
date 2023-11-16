@@ -1,0 +1,53 @@
+.contenedor { 
+    border: solid 1px #c26aee;
+    width: 100%;
+    max-width: 500px; margin: 0px auto;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center; min-height: 100vh;
+    box-shadow: 0px 0px 10px #56ffff;
+    color: #d05d7e;
+    font-family: Arial;
+    }
+    .titulo {
+    font-size: 50px; 
+    margin-bottom: 20px;
+    }
+    .logo {
+    width: 200px; 
+    height: 200px;
+    }
+    .caja-correo, .caja-password { 
+        font-size: 30px;
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px ☐red;
+    outline: none;
+    margin-top: 10px;
+    }
+    input::placeholder{ 
+        color: #edf115f3;
+    }
+    .agrupador-correo, .agrupador-password {
+         text-align: left;
+        margin-top: 20px;
+        }
+        .agrupador-boton {
+             margin-top: 30px;
+        }
+        
+        .boton-ingresar {    
+        font-size: 30px;
+        background-color:rgb(34, 17, 127);
+        color: white;
+        padding: 10px; cursor: pointer;
+        }
+        .otros-botones {
+        margin-top: 50px; 
+        text-align: center;
+        background-color: green;
+        }
+        .link-registro, .link-password {
+        color:#b736ea; 
+        display:block;
+        }
